@@ -1,0 +1,149 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 161, 161);
+  color: aliceblue;
+}
+
+p {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(
+    to top,
+    rgb(26, 161, 161),
+    rgba(245, 242, 242, 0.7)
+  );
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 3px solid #fff;
+}
+
+.icon:hover {
+  font-size: 26px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon-star {
+  font-size: 22px;
+}
+
+.icon-star,
+.icon-trash {
+  opacity: 0.4;
+}
+
+.icon-star:hover {
+  color: goldenrod;
+  opacity: 1;
+  font-size: 24px;
+}
+
+.icon-trash {
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+.icon-trash:hover {
+  font-size: 29px;
+  opacity: 1;
+  color: azure;
+}
+
+.icon-angry2 {
+  color: orange;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+input {
+  padding: 15px 10px;
+  border-radius: 6px;
+  width: 40vw;
+  font-size: 21px;
+  text-align: center;
+  border: none;
+  outline: cadetblue;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+button {
+  all: unset; /* يشيل الباكروند للايكون */
+}
+
+.icon-upload {
+  font-size: 40px;
+  margin-left: 17px;
+  position: relative;
+  top: 9px;
+}
+
+.icon-upload:hover {
+  font-size: 43px;
+  transition: 0.4s;
+  color: royalblue;
+}
+
+.dn {
+  display: none;
+}
+
+.icon-heart {
+  font-size: 23px;
+  color: darkred;
+}
+
+.icon-heart:hover {
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.line {
+  text-decoration-line: line-through;
+}
+
+.orange {
+  color: orange;
+  opacity: 1;
+}
